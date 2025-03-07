@@ -58,3 +58,16 @@ main{
 .content-image{
     height: 85vh;
 }
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 75px;
+    padding-left: 75px;
+    color: #ffffff;
+    font-weight: 100;
+}
+footer div {
+    width: 64px;
+}
