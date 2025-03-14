@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 body{
     height: 100vh;
     width: 100vw;
@@ -29,6 +33,9 @@ header{
 header span {
     font-weight: 600;
 }
+div>span {
+    padding: 20px;
+}
 main{
     flex-grow: 1;
     display: flex;
@@ -51,7 +58,7 @@ main{
     color: #ffffff;
     font-size: 2.5rem;
     width: 240px;
-    transform: translateX(-120%);
+    transform: translateX(-150%);
     text-align: end;
 }
 .content-image{
